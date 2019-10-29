@@ -8,7 +8,7 @@ setup(
   author = 'James Yougchae Chee',
   author_email = 'litcoderr@gmail.com',
   url = 'https://github.com/litcoderr/picocv',
-  download_url = 'https://github.com/litcoderr/picocv/archive/v_0.1.tar.gz',
+  download_url = 'https://github.com/litcoderr/picocv/archive/v_0.2.tar.gz',
   keywords = ['deeplearning', 'pytorch', 'machinelearning'],
   install_requires=[
           'torch',
