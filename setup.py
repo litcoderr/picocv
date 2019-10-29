@@ -2,7 +2,7 @@ from distutils.core import setup
 setup(
   name = 'picocv',
   packages = ['picocv'],
-  version = '0.1',
+  version = '0.2',
   license='MIT',
   description = 'PICO semi-auto label correction algorithm for Computer Vision',
   author = 'James Yougchae Chee',
@@ -11,7 +11,7 @@ setup(
   download_url = 'https://github.com/litcoderr/picocv/archive/v_0.1.tar.gz',
   keywords = ['deeplearning', 'pytorch', 'machinelearning'],
   install_requires=[
-          'pytorch',
+          'torch',
           'numpy',
   ],
   classifiers=[
