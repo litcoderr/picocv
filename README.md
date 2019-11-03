@@ -2,9 +2,9 @@
 > PICO label correction algorithm implemented for Computer Vision
 
 ## Why Use PICOCV?
-Correct labeling is essential for image classification algorithms based on supervised machine learning.
-Nonetheless, labeling being a task that can only be done by people will have human errors which will decrease the performance.
-<b>PICOCV</b> is here to rescue ML Engineers from manually correcting their dataset labels and enable semi-automatic label correction.
+1. Correct labeling is essential for image classification algorithms based on supervised machine learning.
+2. Nonetheless, labeling being a task that can only be done by people, human error is inevitable.
+3. <b>PICOCV</b> performs semi-automatic label correction for better performance.
 
 ## Quick Setup
 1. Install picocv via pip
