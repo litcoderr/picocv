@@ -14,6 +14,21 @@ from dataset import MyDataset
 
 import os
 
+def model_func():
+    """
+    Initialize Custom Model
+    :return: Initialized Custom Model
+    """
+    return MyClassifier()
+
+def dataset_func():
+    """
+    Initialize Custom Dataset
+    :return: Initialized Custom Dataset
+    """
+    # Dataset Should Return tuple(image(tensor(width,height,3)), label(tensor)))
+    return MyDataset()
+
 if __name__ == '__main__':
     ### 3. CONFIGURE SETTINGS
     # Reference pico._settings documentation for more info
@@ -26,4 +41,4 @@ if __name__ == '__main__':
     settings = Settings(result_dir=result_dir)
 
     ### 4. RUN AUTO_CORRECT
-    picocv.autoCorrect(model=MyClassifier, dataset=MyDataset, settings=settings)
+    picocv.autoCorrect(model_func=model_func, dataset_func=dataset_func, settings=settings)
